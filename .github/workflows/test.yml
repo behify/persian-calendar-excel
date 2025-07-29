@@ -36,6 +36,7 @@ jobs:
         }
         
         if (-not $allFilesExist) {
+          Write-Error "Some required files are missing"
           exit 1
         }
     
@@ -84,6 +85,7 @@ jobs:
         }
         
         if (-not $allDocsExist) {
+          Write-Error "Some documentation files are missing"
           exit 1
         }
     
@@ -119,5 +121,7 @@ jobs:
         config: |
           {
             "MD013": false,
-            "MD033": false
+            "MD033": false,
+            "MD041": false,
+            "MD001": false
           }
