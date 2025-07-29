@@ -6,6 +6,15 @@
 
 <div align="center">
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/behify/persian-calendar-excel?style=flat-square&color=brightgreen)](https://github.com/behify/persian-calendar-excel/releases/latest)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/behify/persian-calendar-excel/test.yml?branch=main&style=flat-square)](https://github.com/behify/persian-calendar-excel/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Excel VBA](https://img.shields.io/badge/Excel-VBA-217346?style=flat-square&logo=microsoft-excel&logoColor=white)](https://docs.microsoft.com/en-us/office/vba/api/overview/)
+[![Persian Calendar](https://img.shields.io/badge/Calendar-Persian%20%7C%20Jalali-blue.svg?style=flat-square)](https://en.wikipedia.org/wiki/Solar_Hijri_calendar)
+[![GitHub stars](https://img.shields.io/github/stars/behify/persian-calendar-excel?style=flat-square&color=gold)](https://github.com/behify/persian-calendar-excel/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/behify/persian-calendar-excel?style=flat-square&color=blue)](https://github.com/behify/persian-calendar-excel/network)
+[![GitHub issues](https://img.shields.io/github/issues/behify/persian-calendar-excel?style=flat-square&color=red)](https://github.com/behify/persian-calendar-excel/issues)
+
 یک پکیج VBA کامل برای تبدیل تاریخ شمسی به میلادی و بالعکس در Microsoft Excel، بر اساس الگوریتم .NET PersianCalendar.
 
 فارسی | **[English](README.md)**
@@ -156,7 +165,7 @@ persian-calendar-excel/
 │   ├── PersianCalendarHelpers.bas
 │   └── PersianCalendarTests.bas
 ├── examples/
-│   └── Sample.xlsm
+│   └── Sample.xlsx
 └── docs/
     ├── API.md
     └── TROUBLESHOOTING.md
